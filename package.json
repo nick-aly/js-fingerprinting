@@ -1,0 +1,29 @@
+{
+	"name": "js-fingerprinting",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "gulp"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.12.16",
+		"@babel/preset-env": "^7.12.16",
+		"babel-loader": "^8.2.2",
+		"babel-minify": "^0.5.1",
+		"babel-preset-minify": "^0.5.1",
+		"gulp": "^4.0.2",
+		"webpack": "^5.22.0",
+		"webpack-stream": "^6.1.2"
+	},
+	"dependencies": {
+		"@fingerprintjs/fingerprintjs": "^3.0.6",
+		"bowser": "^2.11.0",
+		"isbot": "^3.0.24",
+		"js-cookie": "^2.2.1",
+		"uuid": "^8.3.2"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
